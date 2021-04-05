@@ -1,0 +1,11 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 122.2px;
+  background: #ddeded;
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+}
