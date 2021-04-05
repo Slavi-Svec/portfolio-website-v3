@@ -1,6 +1,6 @@
 .navbar {
   background: #ddeded;
-  height: 80px;
+  height: 125px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@
 }
 
 .navbar.active {
-  background: #0c6baa;
+  background: #01bf71;
   transition: 0.7s;
 }
 
@@ -25,9 +25,30 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  /* color: #fff;
   justify-self: start;
   margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  width: 85px;
+  height: 85px; */
+}
+
+.navbar-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  width: 85px;
+  height: 85px;
+  margin-top: 20px;
+  justify-self: start;
+  margin-left: 130px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -43,12 +64,13 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 23px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 78vw;
   justify-content: end;
   margin-right: 2rem;
+  margin-top: 20px;
 }
 
 .nav-item {
@@ -56,12 +78,16 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #0c6baa;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-weight: 500;
+  font-family: brandon-grotesque, HelveticaNeue-Light, 'Helvetica Neue Light',
+    'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 20px;
 }
 
 .nav-links:hover {
@@ -92,14 +118,18 @@
     width: 100%;
     height: 90vh;
     position: absolute;
-    top: 80px;
+    top: 105px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
   }
 
+  .logo {
+    margin-left: 30px;
+  }
+
   .nav-menu.active {
-    background: #242222;
+    background: #01bf71;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -119,13 +149,6 @@
     border-radius: 0;
   }
 
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
-  }
-
   .menu-icon {
     display: block;
     position: absolute;
@@ -139,6 +162,7 @@
   .fa-times {
     color: #fff;
     font-size: 2rem;
+    z-index: 1;
   }
 
   .nav-links-mobile {

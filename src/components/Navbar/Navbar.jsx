@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { NavLink, Link } from 'react-router-dom'
+import Image from '../Image/Image'
+import avatarOne from '../../images/AvatarLogo-1.png'
 import './styles.css'
 
 const Navbar = () => {
@@ -25,12 +27,11 @@ const Navbar = () => {
   window.addEventListener('resize', showButton)
 
   const changeBackground = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 100) {
       setNavbar(true)
     } else {
       setNavbar(false)
     }
-    console.log(window.scrollY)
   }
 
   window.addEventListener('scroll', changeBackground)
@@ -40,8 +41,7 @@ const Navbar = () => {
       <nav className={navbar ? 'navbar active' : 'navbar'}>
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            {' '}
-            Logo here
+            <Image className="logo" src={avatarOne} />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
