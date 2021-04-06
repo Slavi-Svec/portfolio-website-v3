@@ -1,8 +1,6 @@
 import React from 'react'
-// import Navigation from '../../Components/Navigation/Navigation'
 import Image from '../../components/Image/Image'
 import Text from '../../components/Text/Text'
-// import Footer from '../../Components/Footer/Footer'
 import AvatarLogo3 from '../../images/AvatarLogo3.png'
 import laptopTemplate from '../../images/laptop-template.png'
 import './styles.css'
@@ -12,8 +10,8 @@ const WorkPage = () => {
   return (
     <>
       <section className="work-section">
-        <section className="work-description" id="work__container">
-          <Text text="Projects" className="work-title" variant="h2" />
+        <section className="work-description">
+          <Text text="Work" className="work-title" variant="h2" />
         </section>
       </section>
       <section className="work-description">
@@ -23,10 +21,20 @@ const WorkPage = () => {
             className="project-card-variant-one"
             src={laptopTemplate}
             title="AA Newtown Website"
-            description="A simple weather app that displays the current weather and 5 day forecast. Using React and
-                     SASS. The updated datais are accessed from open weather maps api"
+            description="A webpage made for Alcoholics Anonymous Newtown using create react app."
           />
         </section>
+        <Text text="I can help." className="about-help" variant="h2" />
+        <Text
+          text="Want to work together? I’d love to hear from you."
+          className="about-work-together"
+          variant="h3"
+        />
+        <Text
+          text="I’m happy to collaborate on projects so if you require help on some upcoming work, or just want to say hi, than get in touch."
+          className="about-contacting"
+          variant="p"
+        />
       </section>
     </>
   )

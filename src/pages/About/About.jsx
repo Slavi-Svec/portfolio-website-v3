@@ -39,13 +39,12 @@ const About = () => {
           variant="p"
         />
         <Text
-          text=" My main focus is mobile-friendly responsive websites in HTML, SASS, JavaScript,
-                            and React but  I am always willing and eager to learn new skills and technologies for coding
+          text=" My main focus is mobile-friendly responsive websites in ReactJS, SASS and JSX
+                     but  I'm always willing and eager to learn new skills and technologies for coding
                             stunning webpages. "
           className="about-info"
           variant="p"
         />
-
         <Image className="about-description-logo" src={AvatarLogoTwo} />
         <Text text="And when im not coding....." variant="h3" />
         <Text
@@ -54,7 +53,6 @@ const About = () => {
           className="about-info"
           variant="p"
         />
-
         <Text text="I can help." className="about-help" variant="h2" />
         <Text
           text="Want to work together? I’d love to hear from you."
