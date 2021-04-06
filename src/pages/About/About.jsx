@@ -29,7 +29,7 @@ const About = () => {
           variant="p"
         />
         <section className="about-Work-details">
-          <Text text="More about me." variant="h2" />
+          {/* <Text text="More about me." variant="h2" /> */}
         </section>
         <Text text="What i can do" variant="h3" />
         <Text

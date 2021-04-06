@@ -1,0 +1,44 @@
+.work-section {
+  background: #ddeded;
+}
+
+.work-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 23.6375rem;
+}
+
+.work-title {
+  padding-top: 5.625rem;
+  margin-bottom: 3.75rem;
+  color: #0c6baa;
+  font-size: 6.8rem;
+  font-weight: 400;
+  font-family: Lemon Jelly Personal Use;
+  text-align: center;
+}
+
+.work-logo {
+  height: 175px;
+  width: 175px;
+  margin-top: 60px;
+}
+
+.project-card-variant-one {
+  padding: 4rem;
+  background: linear-gradient(
+      338.83deg,
+      #dde5ed -3.41%,
+      rgba(255, 196, 255, 0) 52.31%
+    ),
+    #eddddd;
+  flex: 0 0 90%;
+  margin-top: 5%;
+  border-radius: 20px;
+  position: relative;
+  display: block;
+  transition: all 0.4s ease-in-out;
+  padding: 1em 3em 4em;
+}

@@ -1,0 +1,32 @@
+/* .project { */
+.work-body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: white;
+}
+
+.work-cardImage {
+  width: 70%;
+  max-width: 100%;
+  margin-top: 90px;
+}
+
+.project-title {
+  margin-top: 60px;
+  color: #276791;
+  font-size: 3.8rem;
+  font-weight: 400;
+}
+
+.project-description {
+  color: #545454;
+  font-size: 31px;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 1.5%;
+  border: 2px solid red;
+}

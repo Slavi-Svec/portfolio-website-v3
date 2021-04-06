@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import About from './pages/About/About'
-import Work from './pages/Work/Work'
+import WorkPage from './pages/WorkPage/WorkPage'
 import Contact from './pages/Contact/Contact'
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
         <Navbar />
         <Switch>
           <Route path="/" exact component={About} />
-          <Route path="/work" component={Work} />
+          <Route path="/work" component={WorkPage} />
           <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
