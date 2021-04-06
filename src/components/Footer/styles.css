@@ -1,0 +1,20 @@
+.footer {
+  height: 200px;
+  background-color: #66b8cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  list-style: none;
+}
+
+.footer-logo {
+  height: 64px;
+  width: 64px;
+}
