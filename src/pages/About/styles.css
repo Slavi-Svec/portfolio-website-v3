@@ -22,7 +22,6 @@
   align-items: center;
   padding-top: 120px;
   color: #0c6baa;
-  width: 800px;
   font-size: 120px;
   font-weight: 400;
   font-family: Lemon Jelly Personal Use;
@@ -71,4 +70,22 @@
 
 .about-contacting {
   width: 60%;
+}
+
+@media screen and (max-width: 375px) {
+  .about-title {
+    font-size: 100px;
+    margin-top: -20px;
+  }
+  .hero-image {
+    width: 100%;
+    margin-top: 140px;
+  }
+  .about-description-logo {
+    margin-top: 80px;
+  }
+
+  .about-bio {
+    width: 90%;
+  }
 }

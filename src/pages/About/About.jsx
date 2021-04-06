@@ -28,9 +28,7 @@ const About = () => {
               Lover of all things Javascript, focusing on front end development."
           variant="p"
         />
-        <section className="about-Work-details">
-          {/* <Text text="More about me." variant="h2" /> */}
-        </section>
+        <section className="about-Work-details"></section>
         <Text text="What i can do" variant="h3" />
         <Text
           text="I enjoy turning difficult problems into simple and intuitive solutions,

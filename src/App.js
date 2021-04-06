@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import About from './pages/About/About'
 import WorkPage from './pages/WorkPage/WorkPage'
-import Contact from './pages/Contact/Contact'
+import ContactPage from './pages/Contact/Contact'
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
           <Switch>
             <Route path="/" exact component={About} />
             <Route path="/work" component={WorkPage} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/contact" component={ContactPage} />
           </Switch>
           <Footer />
         </ScrollToTop>
