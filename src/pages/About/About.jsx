@@ -18,10 +18,13 @@ const About = () => {
         />
         <Image className="hero-image" src={heroImage} />
       </section>
-
       <section className="about-description">
         <Image className="about-description-logo" src={AvatarLogo} />
-        <Text text="Hi, Im slavi" variant="h3" />
+        <Text
+          text="Hi, Im slavi"
+          variant="h3"
+          className="about-paragraph-title"
+        />
         <Text
           className="about-bio"
           text="I'm a web developer based in Sydney, Australia.
@@ -29,7 +32,7 @@ const About = () => {
           variant="p"
         />
         <section className="about-Work-details"></section>
-        <Text text="What i can do" variant="h3" />
+        <Text text="What i can do" variant="h3" className="about-paragraph" />
         <Text
           text="I enjoy turning difficult problems into simple and intuitive solutions,
                             creating interesting and beautiful interfaces across web and mobile applications."
@@ -44,7 +47,11 @@ const About = () => {
           variant="p"
         />
         <Image className="about-description-logo" src={AvatarLogoTwo} />
-        <Text text="And when im not coding....." variant="h3" />
+        <Text
+          text="And when I'm not coding..."
+          variant="h3"
+          className="about-paragraph-title"
+        />
         <Text
           text="Always ready for an adventure traveling to many different types of destinations.
                                I Enjoy writing, fitness, drawing and blogging. To add to this, I'm also into cryptocurrency."

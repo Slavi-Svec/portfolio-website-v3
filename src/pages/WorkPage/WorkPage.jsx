@@ -2,7 +2,7 @@ import React from 'react'
 import Image from '../../components/Image/Image'
 import Text from '../../components/Text/Text'
 import AvatarLogo3 from '../../images/AvatarLogo3.png'
-import laptopTemplate from '../../images/laptop-template.png'
+import laptopTemplate from '../../images/laptop-AAwebsite.png'
 import './styles.css'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
 
@@ -20,8 +20,9 @@ const WorkPage = () => {
           <ProjectCard
             className="project-card-variant-one"
             src={laptopTemplate}
+            href={'https://aanewtown.org/'}
             title="AA Newtown Website"
-            description="A webpage made for Alcoholics Anonymous Newtown using create react app."
+            description="A website made for Alcoholics Anonymous Newtown using create react app."
           />
         </section>
         <Text text="I can help." className="about-help" variant="h2" />

@@ -39,6 +39,14 @@
   margin-top: 5px;
 }
 
+.about-paragraph-title {
+  margin: 12px 0 5px 0;
+}
+
+.about-paragraph {
+  margin-bottom: 5px;
+}
+
 .about-description {
   display: flex;
   flex-direction: column;
@@ -56,7 +64,7 @@
 }
 
 .about-help {
-  margin-top: 100px;
+  margin: 100px 0 5px 0;
 }
 
 .about-Work-details {
@@ -66,6 +74,7 @@
 .about-work-together {
   width: 80%;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 .about-contacting {
@@ -86,6 +95,20 @@
   }
 
   .about-bio {
-    width: 90%;
+    width: 80%;
+  }
+  .about-info {
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .about-contacting {
+    width: 80%;
+  }
+  .about-paragraph-title {
+    width: 50%;
+  }
+  .about-description-logo {
+    margin-top: 100px;
   }
 }
